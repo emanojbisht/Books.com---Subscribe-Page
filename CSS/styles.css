@@ -1,0 +1,130 @@
+/* **************************************************** */
+/* HEADING body */
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* *************************************************** */
+/* HEADING main */
+
+#main {
+  margin-top: 50px;
+  margin-top: 20px;
+  width: 50%;
+  margin: auto;
+}
+#section {
+  /* display: grid; */
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 30px;
+}
+.main-logo {
+  width: 80px;
+  height: 80px;
+  display: block;
+  margin: auto;
+  padding-top: 50px;
+}
+.heading {
+  text-align: center;
+}
+
+#form-container {
+  display: grid;
+  grid-template-rows: auto;
+  grid-row-gap: 10px;
+  padding: 50px 50px;
+  border: 1px solid whitesmoke;
+  box-shadow: 10px 5px 5px red;
+  border-radius: 5px;
+}
+.input {
+  width: 98%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 3px 3px 3px 10px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+    sans-serif;
+  font-size: 15px;
+}
+
+#form-right-Div {
+  /* background-color: white; */
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#submitButton {
+  cursor: pointer;
+  font-size: 20px;
+  padding: 15px 70px;
+  background-color: crimson;
+  color: white;
+  border: 1px solid crimson;
+  border-radius: 30px;
+  display: inline-block;
+  margin: auto;
+}
+
+.hidden {
+  display: none;
+  padding: 50px 0;
+  border-radius: 5px;
+}
+.user-details-div-image {
+  padding: 10px;
+  height: 40%;
+  width: 60%;
+  display: block;
+  margin: auto;
+}
+.form-heading {
+  text-align: center;
+}
+.form-sumamry {
+  text-align: center;
+}
+.user-details-table {
+  margin: auto;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+@media screen and (max-width: 1200px) {
+  #main {
+    width: 90%;
+  }
+  #section {
+    grid-template-columns: 100%;
+  }
+  #form-right-Div {
+    margin-top: 20px;
+  }
+  .user-details-table {
+    padding: 20px;
+  }
+  .user-details-div-image {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #form-container {
+    padding: 50px 15px;
+  }
+  #main {
+    width: 90%;
+  }
+  #table-hobbies {
+    padding: 10px;
+  }
+}

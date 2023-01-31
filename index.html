@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Books.com</title>
+    <!--HEADING stylesheet -->
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <!-- HEADING favicon -->
+    <link rel="icon" href="images/star.png" />
+  </head>
+  <body>
+    <!-- OUTER header section -->
+    <header></header>
+
+    <!-- OUTER body section -->
+    <main id="main">
+      <!-- INNER logo image -->
+      <img
+        class="main-logo"
+        src="images/vecteezy_circle-logo_1191989.png"
+        alt=""
+        srcset=""
+      />
+      <!-- INNER heading -->
+      <h2 class="heading">Welcome to Books.com 🐰</h2>
+      <!-- INNER section -->
+      <section id="section">
+        <!-- SUB form -->
+        <form action="" id="form-container">
+          <label for="firstName">
+            <input
+              type="text"
+              name="firstName"
+              id="firstName"
+              placeholder="First Name : "
+              class="input"
+            />
+            <span></span>
+          </label>
+          <label for="lastName">
+            <input
+              type="text"
+              name="lastName"
+              id="lastName"
+              placeholder="Last Name : "
+              class="input"
+            />
+            <span></span>
+          </label>
+          <label for="gender">
+            <legend>Gender</legend>
+            <label for="male">
+              <input type="radio" name="radio" id="male" class="genderItem" />
+              Male
+            </label>
+            <label for="female" class="gender">
+              <input type="radio" name="radio" id="female" class="genderItem" />
+              Female
+            </label>
+            <span></span>
+          </label>
+          <label for="email">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email : "
+              class="input"
+            />
+            <span></span>
+          </label>
+          <label for="phoneNumber">
+            <input
+              type="number"
+              name="phoneNumber"
+              id="phoneNumber"
+              placeholder="phoneNumber : "
+              class="input"
+            />
+            <span></span>
+          </label>
+          <label for="password">
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Password : "
+              class="input"
+            />
+            <span></span>
+          </label>
+          <label for="cpassword">
+            <input
+              type="password"
+              name="cpassword"
+              id="cpassword"
+              placeholder="Confirm Password : "
+              class="input"
+              disabled
+            />
+            <span></span>
+          </label>
+          <label for="hobbies">
+            <legend>Hobbies</legend>
+            <label for="movies">
+              <input type="checkbox" id="movies" class="hobbies" />
+              Movies
+            </label>
+            <label for="travel">
+              <input type="checkbox" id="travel" class="hobbies" />
+              Travel
+            </label>
+            <label for="game">
+              <input type="checkbox" id="game" class="hobbies" />
+              Game
+            </label>
+            <label for="music">
+              <input type="checkbox" id="music" class="hobbies" />
+              Music
+            </label>
+            <label for="books">
+              <input type="checkbox" id="books" class="hobbies" />
+              Books
+            </label>
+            <label for="juice" class="hobbies-item">
+              <input type="checkbox" id="juice" class="hobbies" />
+              Juice
+            </label>
+            <span></span>
+          </label>
+          <p>
+            <label for="checkTerms">
+              <input type="checkbox" name="checkTerms" id="checkTerms" />
+              I Accept
+            </label>
+            <a class="a-termConditon" href="#"> Terms and conditions</a>
+            <span></span>
+          </p>
+          <input id="submitButton" type="submit" value="Subscribe" />
+        </form>
+        <!-- SUB submit information div -->
+        <div id="form-right-Div" class="hidden">
+          <img
+            class="user-details-div-image"
+            src="https://www.nicepng.com/png/detail/2-21901_thankyou-png.png"
+            alt=""
+          />
+          <h1 class="form-heading">Thank You</h1>
+          <p class="form-sumamry">The form was submitted successfully.</p>
+          <div class="user-details-innerDiv">
+            <table class="user-details-table">
+              <tr>
+                <td>Name :</td>
+                <td>Name</td>
+              </tr>
+              <tr>
+                <td>Gender :</td>
+                <td>gender</td>
+              </tr>
+              <tr>
+                <td>Email :</td>
+                <td>default@gmail.com</td>
+              </tr>
+              <tr>
+                <td>Mobile :</td>
+                <td>1234567890</td>
+              </tr>
+              <tr>
+                <td>Hobbies :</td>
+                <td class="table-hobbies">hobbies</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <!-- javascript -->
+    <script src="Javascript/script.js"></script>
+  </body>
+</html>
